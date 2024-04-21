@@ -1,0 +1,1199 @@
+repo_name: nanaknketsiah/fo
+report_id: 94ce07b4c705b57ebb5e37ae4925d7e8
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-21T20:13:01+00:00'
+requested_by: jgudo
+provider: github
+branch: master
+detected_tools_count: 83
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nanaknketsiah/fo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nanaknketsiah/fo
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/nanaknketsiah/fo
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-24 15:33:38.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-16 13:57:03.000000000 Z
+- name: redux-saga
+  description: An alternative side effect model for Redux apps
+  website_url: https://redux-saga.github.io
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-24 15:33:38.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 5.11.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 08:18:50.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 3.0.4
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-04 14:22:00.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nanaknketsiah/fo
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/yarn.lock
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-13 07:58:57.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: Cloudinary
+  description: An end-to-end image &amp; video management solution for your web and
+    mobile applications
+  website_url: http://cloudinary.com/
+  open_source: false
+  hosted_saas: true
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 00:19:55.000000000 Z
+- name: Passport
+  description: Simple, unobtrusive authentication for Node.js
+  website_url: http://passportjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://ucarecdn.com/8f3cac0e-b146-4f0f-878c-680a6671d804/
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 09:48:36.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-13 07:58:57.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: "@google-cloud/storage"
+  description: Cloud Storage Client Library for Node.js
+  package_url: https://www.npmjs.com/@google-cloud/storage
+  version: 5.7.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17753/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-16 13:57:03.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: "@types/express-session"
+  description: TypeScript definitions for express-session
+  package_url: https://www.npmjs.com/@types/express-session
+  version: 1.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18757/default_c692c805cf2082b8bc09a2771d585507f0f7bc36.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/morgan"
+  description: TypeScript definitions for morgan
+  package_url: https://www.npmjs.com/@types/morgan
+  version: 1.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18064/image.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 13.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/passport"
+  description: TypeScript definitions for Passport
+  package_url: https://www.npmjs.com/@types/passport
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18669/default_3ed0a361a097c631ee66d5aace42497748694521.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/react-transition-group"
+  description: TypeScript definitions for react-transition-group
+  package_url: https://www.npmjs.com/@types/react-transition-group
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/redux"
+  description: Stub TypeScript definitions entry for Redux
+  package_url: https://www.npmjs.com/@types/redux
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17452/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: "@types/socket.io"
+  description: TypeScript definitions for socket.io
+  package_url: https://www.npmjs.com/@types/socket.io
+  version: 2.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17219/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: clean-css
+  description: A well-tested CSS minifier
+  package_url: https://www.npmjs.com/clean-css
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-14 04:07:34.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: connect-mongo
+  description: MongoDB session store for Express and Connect
+  package_url: https://www.npmjs.com/connect-mongo
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17588/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 08:18:50.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-24 15:32:56.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: csurf
+  description: CSRF token middleware
+  package_url: https://www.npmjs.com/csurf
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18435/default_a5ed378627de312208d3c349f612c8beb1238df7.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.9.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-02 13:57:38.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-24 15:32:56.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 4.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-14 04:07:34.000000000 Z
+- name: http-errors
+  description: Create HTTP error objects
+  package_url: https://www.npmjs.com/http-errors
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: jade
+  description: A clean
+  package_url: https://www.npmjs.com/jade
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16163/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 17.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-20 02:54:11.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-12 14:21:47.000000000 Z
+- name: lodash.omit
+  description: The lodash method `_.omit` exported as a module
+  package_url: https://www.npmjs.com/lodash.omit
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16887/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-27 09:12:58.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-02-07 05:13:51.000000000 Z
+- name: passport-facebook
+  description: Facebook authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-facebook
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17972/default_5cd4226daecf35530a193ea8bd553edbe0c69ed1.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: passport-local
+  description: Local username and password authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-local
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-14 08:11:17.000000000 Z
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 12.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-03 11:45:47.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-20 09:33:30.000000000 Z
+- name: postcss-nested
+  description: PostCSS plugin to unwrap nested rules like how Sass does it
+  package_url: https://www.npmjs.com/postcss-nested
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-03 11:45:47.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-modal
+  description: Accessible modal dialog component for React.JS
+  package_url: https://www.npmjs.com/react-modal
+  version: 3.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16926/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: react-transition-group
+  description: A react component toolset for managing animations
+  package_url: https://www.npmjs.com/react-transition-group
+  version: 4.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-21 13:27:46.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2020-12-24 15:33:38.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-13 07:58:57.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-01-04 14:22:00.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-16 13:57:03.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-13 07:58:57.000000000 Z
+- name: tsconfig-paths
+  description: Load node modules according to tsconfig paths
+  package_url: https://www.npmjs.com/tsconfig-paths
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/nanaknketsiah/fo/blob/master/frontend/yarn.lock
+  detection_source: server/package.json
+  last_updated_by: Julius Guevarra
+  last_updated_on: 2021-03-13 07:58:57.000000000 Z
